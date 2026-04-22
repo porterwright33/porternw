@@ -1,1 +1,196 @@
-... (content of fromscratch.html) ...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porter Wright - Personal Page</title>
+    <link rel="stylesheet" href="css/mystyles.css" />
+</head>
+<body>
+
+    <!-- On-page anchor target: top of page -->
+    <div id="top" class="header">
+        <h1>Porter Wright</h1>
+        <p>BYU Business Student &nbsp;|&nbsp; Sales &nbsp;|&nbsp; Entrepreneur</p>
+        <nav>
+            <a href="index.html">Resume</a> |
+            <a href="about.html">About</a> |
+            <a href="AI.html">Trivia Game</a> |
+            <a href="#hobbies">Hobbies</a> |
+            <a href="#mission">My Mission</a> |
+            <a href="#tableau">Data Dashboard</a> |
+            <a href="#bottom">Jump to Bottom</a>
+        </nav>
+    </div>
+
+    <!-- Main Body -->
+    <div class="main-body">
+
+        <h2>About Me</h2>
+        <p>
+            Hi! I'm Porter Wright, a Business Management student at Brigham Young University in Provo, Utah.
+            I spent two years living in Trinidad, Tobago, and Guyana as a full-time missionary, which gave me
+            a deep love for other cultures and a practical education in leadership and communication. Since
+            returning, I've worked in direct sales and entrepreneurship, and I'm currently studying business
+            with plans to go into entrepreneurship or business development.
+        </p>
+        <p>
+            Outside of academics and work, I love anything in the mountains, playing basketball, reading,
+            and following how artificial intelligence is changing the world.
+        </p>
+
+        <!-- Image NOT from Bootstrap theme — mountain landscape via Unsplash -->
+        <img
+            src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
+            alt="Mountain landscape representing my love of the outdoors"
+            width="700"
+            style="max-width:100%;"
+        />
+        <p><em>The mountains are my favorite place to reset and think.</em></p>
+
+        <!-- Hobbies anchor -->
+        <h2 id="hobbies">My Hobbies</h2>
+        <!-- Ordered list with nested unordered lists (required) -->
+        <ol>
+            <li>Outdoors &amp; Adventure
+                <ul>
+                    <li>Hiking and backpacking in the Wasatch Mountains</li>
+                    <li>Camping with friends and family</li>
+                    <li>Snowboarding in the winter</li>
+                </ul>
+            </li>
+            <li>Sports
+                <ul>
+                    <li>Basketball — my favorite sport since I was a kid</li>
+                    <li>Golf — still learning but loving it</li>
+                    <li>Lacrosse — played through high school</li>
+                </ul>
+            </li>
+            <li>Reading &amp; Learning
+                <ul>
+                    <li>Business strategy and leadership books</li>
+                    <li>Fantasy novels for fun</li>
+                    <li>Podcasts on entrepreneurship and AI</li>
+                </ul>
+            </li>
+            <li>Technology &amp; AI
+                <ul>
+                    <li>Exploring new AI tools and how they affect business</li>
+                    <li>Building small web projects to sharpen my skills</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h2>My Favorite YouTube Video</h2>
+        <p>One of my favorite motivational talks — Tony Robbins on taking control of your life:</p>
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/faTGTgid8Uc"
+            title="Tony Robbins - Take Control of Your Life"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+
+        <!-- ===================== MISSION SECTION ===================== -->
+        <h2 id="mission">My Mission in Guyana &amp; Trinidad</h2>
+        <p>
+            From July 2022 to August 2024, I served a full-time mission for the Church of Jesus Christ of
+            Latter-Day Saints across Trinidad, Tobago, and Guyana. It was the most formative experience of
+            my life — two years of living in a different culture, learning to communicate across language
+            and background barriers, and leading people through some of the hardest moments of their lives.
+        </p>
+        <p>
+            As an assistant to the mission president, I managed logistics, healthcare coordination, and
+            personnel oversight for an entire country — responsibilities I did not expect to carry at 20
+            years old.
+        </p>
+
+        <h3>Baptism</h3>
+        <img src="assets/img/mission1.jpg" alt="Teaching a family in Guyana" width="600" style="max-width:100%;" />
+        <p>One of the most meaningful moments of my mission — a baptism we had worked toward for months.</p>
+
+        <h3>Andre</h3>
+        <img src="assets/img/mission2.jpg" alt="With friends in the mission field" width="600" style="max-width:100%;" />
+        <p>Andre became one of my closest friends during my time serving in the Caribbean.</p>
+
+        <h3>Justin</h3>
+        <img src="assets/img/mission3.jpg" alt="Out in the mission field" width="600" style="max-width:100%;" />
+        <p>Justin — a man whose faith and resilience still inspires me today.</p>
+
+        <h3>What the Mission Taught Me</h3>
+        <ol>
+            <li>Leadership
+                <ul>
+                    <li>Managing logistics and personnel for an entire country</li>
+                    <li>Coordinating healthcare and emergency response for 150+ missionaries</li>
+                </ul>
+            </li>
+            <li>Communication
+                <ul>
+                    <li>Connecting with people across cultural and language barriers</li>
+                    <li>Delivering difficult messages with compassion and clarity</li>
+                </ul>
+            </li>
+            <li>Resilience
+                <ul>
+                    <li>Maintaining an 85+ hour weekly schedule for two years straight</li>
+                    <li>Pushing forward in the face of repeated rejection and setbacks</li>
+                </ul>
+            </li>
+        </ol>
+        <!-- ===================== END MISSION ===================== -->
+
+        <!-- Tableau Dashboard Section -->
+        <h2 id="tableau">Data Dashboard</h2>
+        <p>
+            Below is a live, interactive Tableau visualization showing global economic indicators —
+            a topic relevant to anyone studying business and entrepreneurship in a global economy.
+        </p>
+
+        <div class='tableauPlaceholder' id='viz1700000000001' style='position: relative; width: 100%; margin: 20px 0;'>
+            <noscript>
+                <a href='#'>
+                    <img alt='GDP per Capita' src='https://public.tableau.com/static/images/Wo/WorldIndicators/GDPperCapita/1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='WorldIndicators/GDPperCapita' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1700000000001');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width = '100%';
+            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+
+        <h2>My Interactive App</h2>
+        <p>
+            I built a trivia game using HTML, CSS, and JavaScript — test your general knowledge!
+        </p>
+        <a href="AI.html" class="btn-link">Play the Trivia Game &rarr;</a>
+
+    </div>
+
+    <!-- Footer -->
+    <div id="bottom" class="footer">
+        <p>Copyright &copy; Porter Wright 2026</p>
+        <a href="#top">Back to Top &uarr;</a>
+    </div>
+
+</body>
+</html>
