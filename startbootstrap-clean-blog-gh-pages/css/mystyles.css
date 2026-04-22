@@ -1,0 +1,100 @@
+/* mystyles.css - Custom stylesheet for fromscratch.html */
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4f4f4;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #002e5d; /* BYU navy */
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #0062b8;
+    border-bottom: 2px solid #0062b8;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.7;
+}
+
+a {
+    color: #0062b8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* Div 1: Header */
+.header {
+    background-color: #002e5d;
+    color: #ffffff;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.header h1 {
+    color: #ffffff;
+}
+
+.header a {
+    color: #a8c7f0;
+    margin: 0 10px;
+}
+
+/* Div 2: Main Body */
+.main-body {
+    max-width: 860px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Div 3: Footer */
+.footer {
+    background-color: #222222;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+.footer a {
+    color: #a8c7f0;
+}
+
+/* App/game link button */
+.btn-link {
+    display: inline-block;
+    background-color: #002e5d;
+    color: #ffffff;
+    padding: 10px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.btn-link:hover {
+    background-color: #0062b8;
+    text-decoration: none;
+    color: #ffffff;
+}

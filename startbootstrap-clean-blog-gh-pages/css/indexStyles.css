@@ -1,0 +1,35 @@
+/* Guyana flag color overrides for index.html */
+
+/* Green header/masthead */
+.masthead {
+    background-color: #009E60 !important;
+}
+
+/* Gold navbar */
+.navbar {
+    background-color: #FCD116 !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #CE1126 !important;
+}
+
+/* Green footer */
+footer {
+    background-color: #009E60 !important;
+    color: white !important;
+}
+
+footer .text-muted {
+    color: white !important;
+}
+
+footer a {
+    color: #FCD116 !important;
+}
